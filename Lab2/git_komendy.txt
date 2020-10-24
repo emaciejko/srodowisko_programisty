@@ -1,0 +1,14 @@
+git init - inicjalizuje repozytorium
+git status - sprawdza status repozytorium
+git add . dodaje wszystkie zmiany do poczekalni
+git add "nazwa pliku" dodaje zmiany wprowadzone danym pliku
+git push - wysyła zmiany na zdalne repozytorium
+git commit -m "wiadomosc" - dodaje wiadomosc do commita
+git restore "nazwa pliku" - przywraca plik
+git rm "nazwa pliku" - usuwa plik
+git revert ID - przywraca do podanego commita
+git branch - pokazuje wszystkie dostepne galezie
+git branch "nazwa" - tworzy nowa galaz
+git switch "nazwa galezi" - zmienia galaz
+git pull - pobiera zmiany ze zdalnego repozytorium
+git merge "nazwa galezi" - laczy galaz na ktorej sie znajdujemy z podana galezia
