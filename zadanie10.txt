@@ -1,1 +1,54 @@
-SHA256:puXAhEaAPO1nHmqmeAGBFmPZGL+lBnIrg51rGlhJMyQ het9crab@DESKTOP-931785R
+Zadanie 1:
+git init
+git status
+git status
+git add zadanie1
+git add zadanie1_nowy_plik
+git status
+git add .
+git commit -m "zadanie pierwsze"
+Zadnie 2:
+git remote add origin "https://github.com/emaciejko/srodowisko_programisty/tree/master"
+git remote -v
+git push origin master
+Zadanie 3:
+git clone "https://github.com/emaciejko/srodowisko_programisty/tree/master"
+Zadanie 4:
+touch nowy.c
+git status
+git add nowy.c
+git status
+git status
+git diff -- nowy.c
+git restore nowy.c
+git commit -m "zadanie4"
+git add nowy.c
+git restore --staged nowy.c
+git restore nowy.c
+Zadanie 5:
+git restore nowy.c
+git rm nowy.c
+git commit -m "bez pliku nowy.c"
+Zadanie 6:
+touch nowy.gitignore
+touch nowy.obj
+git add .
+git commit -m "zadanie6"
+git push origin master
+Zadanie 7:
+git log
+git commit -m "dowolny commit"
+git status
+Zadanie 8:
+git branch poprawki
+git branch
+git switch poprawki
+git commit -m "poprawki"
+git switch master
+git merge poprawki
+bit branch -d poprawki
+git commit -m "zadanie8"
+git push origin master
+Zadanie 10:
+ssh-keygen
+Wprowadzam klucz ssh do zakładki klucze ssh na stronie github w ustawieniach konta.
